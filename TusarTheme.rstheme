@@ -42,7 +42,8 @@
 
 .ace_marker-layer .ace_foreign_line {
   background: #21252B;
-  border-left: 3px solid #61AFEF;
+  border-left: 2px solid #C678DD;
+  padding-left: 2px;
 }
 
 .ace_chunk {
@@ -59,15 +60,17 @@
 }
 
 .ace_indent-guide {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHB3d/8PAAOIAdULw8qMAAAAAElFTkSuQmCC) right repeat-y;
-  background-size: 1px 2px;
-  opacity: 0.25;
+  background: linear-gradient(to right, rgba(92, 99, 112, 0.4) 0%, rgba(92, 99, 112, 0.4) 1px, transparent 1px) !important;
+  background-size: 1px 100% !important;
+  background-position: left center !important;
+  background-repeat: repeat-y !important;
 }
 
 .ace_indent-guide-active {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAACCAYAAACZgbYnAAAAEklEQVQImWNgYGBgYHB3d/8PAAOIAdULw8qMAAAAAElFTkSuQmCC) right repeat-y;
-  background-size: 1px 2px;
-  opacity: 0.6;
+  background: linear-gradient(to right, rgba(198, 120, 221, 0.8) 0%, rgba(198, 120, 221, 0.8) 1px, transparent 1px) !important;
+  background-size: 1px 100% !important;
+  background-position: left center !important;
+  background-repeat: repeat-y !important;
 }
 
 .ace_constant.ace_language.ace_boolean.ace_text {
