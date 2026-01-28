@@ -1,6 +1,6 @@
-/* rs-theme-name: Yule RStudio */
+/* rs-theme-name: Tusar Theme */
 /* rs-theme-is-dark: TRUE */
-/* Modified for RStudio Dark Mode from the Yule theme (UUID: e1d3b33f-ae0a-b90b-262b-57c4874033ae) */
+/* Adapted for RStudio Dark Mode (originally based on the Yule theme) */
 
 .ace_gutter {
   background: #282C34;
