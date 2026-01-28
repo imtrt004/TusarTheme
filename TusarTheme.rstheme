@@ -59,14 +59,38 @@
   color: rgba(92, 99, 112, 0.3);
 }
 
+/* Colorful indentation guides - different colors for each nesting level */
 .ace_indent-guide {
-  background: repeating-linear-gradient(to bottom, transparent, transparent 3px, rgba(92, 99, 112, 0.35) 3px, rgba(92, 99, 112, 0.35) 4px) !important;
-  background-position: left center !important;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMjI4LCAyMjgsIDIyOCwgMC40KSIvPjwvc3ZnPg==") left repeat-y !important;
 }
 
 .ace_indent-guide-active {
-  background: repeating-linear-gradient(to bottom, transparent, transparent 3px, rgba(198, 120, 221, 0.7) 3px, rgba(198, 120, 221, 0.7) 4px) !important;
-  background-position: left center !important;
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMTk4LCAxMjAsIDIyMSwgMC45KSIvPjwvc3ZnPg==") left repeat-y !important;
+}
+
+/* Multi-level colored indentation guides */
+.ace_indent-guide:nth-child(6n+1) {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMjI4LCAyMjgsIDExNiwgMC42NSkiLz48L3N2Zz4=") left repeat-y !important;
+}
+
+.ace_indent-guide:nth-child(6n+2) {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoOTcsIDE3NSwgMjM5LCAwLjY1KSIvPjwvc3ZnPg==") left repeat-y !important;
+}
+
+.ace_indent-guide:nth-child(6n+3) {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMTUyLCAyMDUsIDEyMSwgMC42NSkiLz48L3N2Zz4=") left repeat-y !important;
+}
+
+.ace_indent-guide:nth-child(6n+4) {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMjA5LCAxNTQsIDEwMiwgMC42NSkiLz48L3N2Zz4=") left repeat-y !important;
+}
+
+.ace_indent-guide:nth-child(6n+5) {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoMTk4LCAxMjAsIDIyMSwgMC42NSkiLz48L3N2Zz4=") left repeat-y !important;
+}
+
+.ace_indent-guide:nth-child(6n+6) {
+  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxIiBoZWlnaHQ9IjQiPjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InJnYmEoODYsIDE4MiwgMTk0LCAwLjY1KSIvPjwvc3ZnPg==") left repeat-y !important;
 }
 
 .ace_constant.ace_language.ace_boolean.ace_text {
